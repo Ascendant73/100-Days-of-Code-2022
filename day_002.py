@@ -1,3 +1,8 @@
+"""
+This is the working file containing all the example and code challenges
+presented during today's session.
+"""
+
 def tip_calculator():
 	print("Welcome to the time calculator.\n")
 	total_bill = float(input("What was the total bill? "))
@@ -50,8 +55,7 @@ def life_in_weeks():
 
 
 def run():
-	print("Day 2 Exercises")
-	print()
+	print("Day 2 Exercises\n")
 	tip_calculator()
 	# print_test()
 	# add_two_digits()

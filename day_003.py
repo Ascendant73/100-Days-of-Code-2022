@@ -1,3 +1,8 @@
+"""
+This is the working file containing all the example and code challenges
+presented during today's session.
+"""
+
 def treasure_island():
 	print('''
 *******************************************************************************
@@ -95,8 +100,7 @@ def love_calculator():
 	
 
 def run():
-	print("Day 3 Exercises")
-	print()
+	print("Day 3 Exercises\n")
 	treasure_island()
 	# even_or_odd()
 	# check_is_leap_year()

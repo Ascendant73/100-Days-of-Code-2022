@@ -1,3 +1,8 @@
+"""
+This is the working file containing all the example and code challenges
+presented during today's session.
+"""
+
 def band_name_generator():
 	# This is the Day 1 activity
 	print("Welcome to the Band Name Generator.")
@@ -43,8 +48,7 @@ def variable_exercise():
 
 
 def run():
-	print("Day 1 Exercises")
-	print()
+	print("Day 1 Exercises\n")
 	print(band_name_generator())
 	# print_test()
 	# debugging_practice()

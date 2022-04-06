@@ -1,3 +1,8 @@
+"""
+This is the working file containing all the example and code challenges
+presented during today's session.
+"""
+
 import random
 
 def password_generator():
@@ -5,8 +10,7 @@ def password_generator():
 	numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 	symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
-	print("Welcome to the PyPassword Generator!")
-	print()
+	print("Welcome to the PyPassword Generator!\n")
 	pw_letters = int(input(f"How many letters would you like in your password? ")) 
 	pw_symbols = int(input(f"How many symbols would you like? "))
 	pw_numbers = int(input(f"How many numbers would you like? "))
@@ -14,7 +18,7 @@ def password_generator():
 	print()
 	
 	password = ''
-	for char in range(1, pw_length+1):
+	for char in range(pw_length):
 		next_char = random.randint(1,3)
 		if next_char == 2 and pw_numbers > 0:
 			password += random.choice(numbers)
@@ -55,7 +59,7 @@ def find_average_height():
 
 	# There is a differnce between looping through the indices of a list and the values of a list
 	# This is looking through the indices
-	for n in range(0, len(student_heights)):
+	for n in range(len(student_heights)):
 		student_heights[n] = int(student_heights[n])
 	
 	all_student_heights = 0
@@ -82,7 +86,7 @@ def find_highest_score():
 	print(f"The min(scores) = {min(scores)}")
 	print(f"The max(scores) = {max(scores)}")
 
-	for n in range(0, len(scores)):
+	for n in range(len(scores)):
 		scores[n] = int(scores[n])
 
 	highest_score = 0
@@ -118,8 +122,7 @@ def fizzbuzz():
 
 
 def run():
-	print("Day 5 Exercises")
-	print()
+	print("Day 5 Exercises\n")
 	password_generator()
 	# find_average_height()
 	# find_highest_score()

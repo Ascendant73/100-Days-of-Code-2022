@@ -1,3 +1,8 @@
+"""
+This is the working file containing all the example and code challenges
+presented during today's session.
+"""
+
 import random
 
 
@@ -86,8 +91,7 @@ def treasure_map():
 	
 
 def run():
-	print("Day 4 Exercises")
-	print()
+	print("Day 4 Exercises\n")
 	rock_paper_scissors()
 	# learn_random()
 	# heads_tails()
