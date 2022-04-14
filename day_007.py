@@ -38,6 +38,7 @@ def play_hangman():
 		print()
 		
 	if not '_' in word_display:
+		os.system('clear')
 		print(f"The word is {selected_word}")
 		print("You win!")
 	elif remaining_guesses == 0:
