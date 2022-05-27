@@ -8,7 +8,10 @@ import platform
 # import day_006 as d6
 # import day_007 as d7
 # import day_008 as d8
-import day_009 as d9
+# import day_009 as d9
+# import day_010 as d10
+# import day_011 as d11
+import day_012 as d12
 
 
 def main():
@@ -21,7 +24,10 @@ def main():
 	# d6.run()
 	# d7.run()
 	# d8.run()
-	d9.run()
+	# d9.run()
+	# d10.run()
+	# d11.run()
+	d12.run()
 	
 
 if __name__ == '__main__':

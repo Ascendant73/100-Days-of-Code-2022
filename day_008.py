@@ -46,7 +46,8 @@ def caesar_cipher():
 	go_again = True
 	while go_again:
 		operation = input("Type 'encode' to encrypt, type 'decode' to decrypt, or type 'quit' to quit:\n").lower()
-		if operation == 'encode' or operation == 'decode':
+		# if operation == 'encode' or operation == 'decode':
+		if operation in {'encode', 'decode'}:
 			encode_or_decode(operation, base_chars)
 		elif operation == 'quit':
 			go_again = False

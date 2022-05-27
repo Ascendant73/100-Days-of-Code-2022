@@ -2,8 +2,8 @@
 This is the working file containing all the example and code challenges
 presented during today's session.
 """
-import random
 import os
+import random
 
 def play_hangman():
 	list_of_words = ['barbeque', 'corvette', 'spaghetti', 'miscellanous']
