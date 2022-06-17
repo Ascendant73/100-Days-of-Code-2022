@@ -11,7 +11,8 @@ EASY_GUESSES = 10
 HARD_GUESSES = 5
 
 
-def set_difficulty():	
+def set_difficulty():
+	"""Returns the max number of guess based on the user reponse"""
 	response = int(input("Type 1 for easy and 2 for hard: "))
 	return EASY_GUESSES if response == 1 else HARD_GUESSES
 	
